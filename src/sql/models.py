@@ -34,7 +34,7 @@ class Item(Base):
     category_id = Column(mysql.INTEGER(3), ForeignKey("category.id"))
     name = Column(String(10))
     code = Column(String(10))
-    price = Column(Float(10))
+    price = Column(Float)
     inventory = Column(mysql.INTEGER(10))
 
     category = relationship("Category")
