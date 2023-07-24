@@ -42,8 +42,8 @@ uvicorn_error.disabled = True
 
 # create app
 app = FastAPI(
-    title = "Gain Miles online test",
-    desciption = "Gain Miles online test",
+    title = "fastapi crud",
+    desciption = "fastapi crud",
     version = "version 1.0.0",
     redoc_url = None
 )
